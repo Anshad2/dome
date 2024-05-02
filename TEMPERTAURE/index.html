@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="form-group">
+            <label for="box1">Enter temperature:</label>
+            <input type="number" class="form-control" id="box1">
+        </div>
+        <div class="btn-group ms-5">
+            <button class="btn btn-primary" onclick="convertToFahrenheit()">Convert to Fahrenheit</button>
+            <button class="btn btn-success" onclick="convertToCelsius()">Convert to Celsius</button>
+        </div>
+        <div id="root" class="mt-4"></div>
+    </div>
+
+</body>
+</html>
