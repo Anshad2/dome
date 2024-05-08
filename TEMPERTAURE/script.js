@@ -16,3 +16,5 @@ function convertToCelsius() {
 
     document.querySelector("#root").innerHTML = `Temperature in Celsius: ${celsius}°C`;
 }
+
+
